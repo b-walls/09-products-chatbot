@@ -59,6 +59,86 @@
         "end": "2025-12-31"
       },
       "avgRating": 4.7
+    },
+    {
+      "name": "The Stack Overflow Sanctuary",
+      "description": "Debug your vacation in this coding-themed cottage. Each error message triggers ambient lighting, and the WiFi password changes every hour to test your problem-solving skills!",
+      "location": "Seattle, Washington",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.4
+    },
+    {
+      "name": "The Procrastination Palace",
+      "description": "A retreat where all clocks show different times, deadlines don't exist, and tomorrow never comes. Features a 'Just 5 More Minutes' bedroom and a 'I'll Do It Later' lounge.",
+      "location": "Boulder, Colorado",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.6
+    },
+    {
+      "name": "The Ramen Residence",
+      "description": "Live the college dream in luxury! Swimming pool filled with noodles, instant ramen dispenser in every room, and a midnight snack vending machine that only accepts spare change.",
+      "location": "Austin, Texas",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.9
+    },
+    {
+      "name": "The Dad Jokes Den",
+      "description": "Warning: Excessive puns ahead! Door greats you with 'Hi Hungry, I'm Door!' and the fridge keeps asking if it's running. Complimentary New Balance sneakers provided.",
+      "location": "Cleveland, Ohio",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.5
+    },
+    {
+      "name": "The Zoom University",
+      "description": "Perfect backgrounds in every room! Features unstable internet simulator, random mute button, and a 'Camera Off' blanket fort. Pets walking across keyboard included.",
+      "location": "San Jose, California",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.7
+    },
+    {
+      "name": "The Reddit Retreat",
+      "description": "Each room themed after a different subreddit. Includes banana for scale in every photo op spot, and a karma-scoring system for good guest behavior.",
+      "location": "Ann Arbor, Michigan",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 4.8
+    },
+    {
+      "name": "The Dial-Up Den",
+      "description": "Experience nostalgic internet speeds! Featuring Windows 95 computers, AOL login sounds, and a perpetually buffering Netflix. Warning: May cause mild frustration and flashbacks.",
+      "location": "Phoenix, Arizona",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 2.8
+    },
+    {
+      "name": "The Group Project Getaway",
+      "description": "One person does all the cleaning while others claim they'll do it later. Booking confirmation only sent after 3 reminder emails. Only 1 in 4 amenities actually works.",
+      "location": "Boston, Massachusetts",
+      "availabilityDates": {
+        "start": "2025-01-01",
+        "end": "2025-12-31"
+      },
+      "avgRating": 3.2
     }
   ]
 }
