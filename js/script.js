@@ -21,7 +21,21 @@ function initChat() {
         const message = userInput.value.trim();
         if (message) {
             userInput.value = '';
-            // Add logic to display user and bot messages
+
+            // Display the user's message
+            const userMessage = document.createElement('div');
+            userMessage.classList.add('message', 'user');
+            userMessage.textContent = message;
+            chatMessages.appendChild(userMessage);
+
+            // Simulate bot response
+            const botMessage = document.createElement('div');
+            botMessage.classList.add('message', 'bot');
+            botMessage.textContent = "I'm here to help!"; // Replace with actual bot logic
+            chatMessages.appendChild(botMessage);
+
+            // Scroll to the latest message
+            chatMessages.scrollTop = chatMessages.scrollHeight;
         }
     }
 
