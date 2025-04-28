@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Offbeat Retreats</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -30,7 +31,7 @@
     <div class="row">
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/ufo-bungalow.png" class="card-img-top" alt="The UFO Bungalow">
+          <img src="img/ufo-bungalow.png" class="card-img-top mb-3" alt="The UFO Bungalow">
           <h2>The UFO Bungalow</h2>
           <p>Experience an out-of-this-world stay in our UFO-themed bungalow. Enjoy cosmic views and "alien" hospitality—this stay is truly out of this world!</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -38,7 +39,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/haunted-loft.png" class="card-img-top" alt="Haunted Loft">
+          <img src="img/haunted-loft.png" class="card-img-top mb-3" alt="Haunted Loft">
           <h2>Haunted Loft</h2>
           <p>Live with friendly ghosts in our elegantly eerie loft. Paranormal activity is included at no extra charge!</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -46,7 +47,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/meme-mansion.png" class="card-img-top" alt="The Meme Mansion">
+          <img src="img/meme-mansion.png" class="card-img-top mb-3" alt="The Meme Mansion">
           <h2>The Meme Mansion</h2>
           <p>Step into a house where every wall is plastered with iconic memes. Picture "Side Eyeing Chloe" smirking in the living room, and "Chill Guy" artwork exuding laid-back vibes in the hallway.</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -54,7 +55,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/upside-down-hacienda.png" class="card-img-top" alt="The Upside-Down Hacienda">
+          <img src="img/upside-down-hacienda.png" class="card-img-top mb-3" alt="The Upside-Down Hacienda">
           <h2>The Upside-Down Hacienda</h2>
           <p>Challenge gravity in a house flipped on its roof—furniture, decor, and even your morning coffee cup are all upside down. Prepare for a topsy-turvy stay!</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -62,7 +63,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/marshmallow-mansion.png" class="card-img-top" alt="The Marshmallow Mansion">
+          <img src="img/marshmallow-mansion.png" class="card-img-top mb-3" alt="The Marshmallow Mansion">
           <h2>The Marshmallow Mansion</h2>
           <p>Float in fluffy luxury within walls of giant, pillowy marshmallows. Complimentary hot chocolate served 24/7 to keep the sugar rush going!</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -70,7 +71,7 @@
       </div>
       <div class="col-lg-4 col-md-6 col-12 mb-4 d-flex align-items-stretch">
         <div class="card p-3">
-          <img src="img/unicorn-lava-lounge.png" class="card-img-top" alt="The Unicorn Lava Lounge">
+          <img src="img/unicorn-lava-lounge.png" class="card-img-top mb-3" alt="The Unicorn Lava Lounge">
           <h2>The Unicorn Lava Lounge</h2>
           <p>Bask in the warm glow of rainbow lava as unicorns trot by with your midnight snack. Glitter geysers activate on the hour—towels not included!</p>
           <button class="btn btn-secondary mt-auto">Book Now</button>
@@ -83,7 +84,29 @@
       </div>
     </div>
   </div>
-  <script src="secrets.js"></script>
-  <script src="script.js"></script>
+  <div class="chatbot-container">
+    <div class="chatbot-toggle">
+      <button id="chatToggle" class="chat-toggle-btn">
+        <i class="open-icon fas fa-comment-dots"></i>
+        <i class="close-icon fas fa-times"></i>
+      </button>
+    </div>
+    <div class="chatbot-box" id="chatBox">
+      <div class="chat-header">
+        <h3>Offbeat Assistant</h3>
+      </div>
+      <div class="chat-messages" id="chatMessages">
+        <div class="message bot">
+          Hello! How can I help you find your perfect offbeat retreat?
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="userInput" placeholder="Type your message...">
+        <button id="sendMessage">Send</button>
+      </div>
+    </div>
+    <script src="secrets.js"></script>
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>
