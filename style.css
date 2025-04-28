@@ -1,0 +1,64 @@
+body {
+  background-color: #f8f9fa; /* Soft neutral background */
+  color: #343a40; /* Dark neutral text color */
+}
+
+.navbar {
+  background-color: #ffffff; /* White background for navbar */
+  border-bottom: 1px solid #dee2e6; /* Light border for navbar */
+}
+
+.navbar-brand, .nav-link {
+  color: #343a40; /* Dark neutral color for navbar text */
+}
+
+.nav-link:hover {
+  color: #ff6f61; /* Warm accent color for hover effect */
+}
+
+h1, h2 {
+  color: #343a40; /* Dark neutral color for headings */
+}
+
+.card {
+  background-color: #ffffff; /* White background for cards */
+  border: 1px solid #dee2e6; /* Light border for cards */
+}
+
+.card h2 {
+  color: #343a40; /* Dark neutral color for card headings */
+}
+
+.card p {
+  color: #6c757d; /* Medium neutral color for card text */
+}
+
+.btn-primary {
+  background-color: #ff6f61; /* Warm accent color for primary button */
+  border-color: #ff6f61;
+  font-size: 1.25rem; /* Larger font size for primary button */
+  padding: 0.75rem 1.5rem; /* Larger padding for primary button */
+}
+
+.btn-primary:hover {
+  background-color: #ff3b2f; /* Darker warm accent color for hover effect */
+  border-color: #ff3b2f;
+}
+
+.btn-secondary {
+  background-color: #ff6f61; /* Brightened warm accent color for secondary button */
+  border-color: #ff6f61;
+}
+
+.btn-secondary:hover {
+  background-color: #ff3b2f; /* Darker warm accent color for hover effect */
+  border-color: #ff3b2f;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important; /* Soft neutral background for light sections */
+}
+
+p {
+  color: #6c757d; /* Medium neutral color for paragraph text */
+}
