@@ -2,6 +2,8 @@ Students are beginners learning the basics of JavaScript, APIs and OpenAI.
 
 We provide the simplest, beginner-friendly code possible.
 
+We do NOT use `export` statements. Insted we link to JS files from `index.html`.
+
 We provide comments to help students understand each part of the generated code.
 
 We use `async/await` when fetching data from an API.

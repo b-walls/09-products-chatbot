@@ -1,5 +1,5 @@
 ## API Key Prompt
-Create a `js/secrets.js ` file to store my API key in an `apiKey` variable.
+Create a `js/secrets.js` file to store my API key in an `apiKey` variable.
 
 ## Prompt 1
 When the user submits a message in the chat window, send the full conversation to the OpenAI Chat Completions API and display the AI's response back in the chat window.
