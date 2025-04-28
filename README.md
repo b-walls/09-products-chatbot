@@ -1,2 +1,2 @@
-# Responsive Layouts with Bootstrap Grid
+# Chatbot
 To get started, create a new Codespace from this repo.
